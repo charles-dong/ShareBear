@@ -29,6 +29,7 @@
 		BCF9E08F1A6C593900DC7E3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E08E1A6C593900DC7E3C /* SystemConfiguration.framework */; };
 		BCF9E0911A6C594100DC7E3C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0901A6C594100DC7E3C /* libz.dylib */; };
 		BCF9E0931A6C594900DC7E3C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0921A6C594900DC7E3C /* libsqlite3.dylib */; };
+		BCF9E0981A6C630D00DC7E3C /* InboxTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		BCF9E0901A6C594100DC7E3C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BCF9E0921A6C594900DC7E3C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		BCF9E0941A6C5A0D00DC7E3C /* ShareBear-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareBear-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */,
 				BC8DAC721A6B94BB0033ABFD /* ViewController.swift */,
 				BC8DAC741A6B94BB0033ABFD /* Main.storyboard */,
+				BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */,
 				BC8DAC771A6B94BB0033ABFD /* Images.xcassets */,
 				BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */,
 				BC8DAC6E1A6B94BB0033ABFD /* Supporting Files */,
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF9E0981A6C630D00DC7E3C /* InboxTVC.swift in Sources */,
 				BC8DAC731A6B94BB0033ABFD /* ViewController.swift in Sources */,
 				BC8DAC711A6B94BB0033ABFD /* AppDelegate.swift in Sources */,
 			);
