@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC8DAC711A6B94BB0033ABFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */; };
+		BC8DAC731A6B94BB0033ABFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAC721A6B94BB0033ABFD /* ViewController.swift */; };
+		BC8DAC761A6B94BB0033ABFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC741A6B94BB0033ABFD /* Main.storyboard */; };
+		BC8DAC781A6B94BB0033ABFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC771A6B94BB0033ABFD /* Images.xcassets */; };
+		BC8DAC7B1A6B94BB0033ABFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */; };
+		BC8DAC871A6B94BB0033ABFD /* ShareBearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC8DAC811A6B94BB0033ABFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8DAC631A6B94BB0033ABFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8DAC6A1A6B94BB0033ABFD;
+			remoteInfo = ShareBear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC8DAC6B1A6B94BB0033ABFD /* ShareBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8DAC6F1A6B94BB0033ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC8DAC721A6B94BB0033ABFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC8DAC751A6B94BB0033ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC8DAC771A6B94BB0033ABFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC8DAC7A1A6B94BB0033ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC8DAC801A6B94BB0033ABFD /* ShareBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8DAC851A6B94BB0033ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBearTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC8DAC681A6B94BB0033ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8DAC7D1A6B94BB0033ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8DAC621A6B94BB0033ABFD = {
+			isa = PBXGroup;
+			children = (
+				BC8DAC6D1A6B94BB0033ABFD /* ShareBear */,
+				BC8DAC831A6B94BB0033ABFD /* ShareBearTests */,
+				BC8DAC6C1A6B94BB0033ABFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC8DAC6C1A6B94BB0033ABFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8DAC6B1A6B94BB0033ABFD /* ShareBear.app */,
+				BC8DAC801A6B94BB0033ABFD /* ShareBearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8DAC6D1A6B94BB0033ABFD /* ShareBear */ = {
+			isa = PBXGroup;
+			children = (
+				BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */,
+				BC8DAC721A6B94BB0033ABFD /* ViewController.swift */,
+				BC8DAC741A6B94BB0033ABFD /* Main.storyboard */,
+				BC8DAC771A6B94BB0033ABFD /* Images.xcassets */,
+				BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */,
+				BC8DAC6E1A6B94BB0033ABFD /* Supporting Files */,
+			);
+			path = ShareBear;
+			sourceTree = "<group>";
+		};
+		BC8DAC6E1A6B94BB0033ABFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8DAC6F1A6B94BB0033ABFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC8DAC831A6B94BB0033ABFD /* ShareBearTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */,
+				BC8DAC841A6B94BB0033ABFD /* Supporting Files */,
+			);
+			path = ShareBearTests;
+			sourceTree = "<group>";
+		};
+		BC8DAC841A6B94BB0033ABFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8DAC851A6B94BB0033ABFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC8DAC6A1A6B94BB0033ABFD /* ShareBear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8DAC8A1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBear" */;
+			buildPhases = (
+				BC8DAC671A6B94BB0033ABFD /* Sources */,
+				BC8DAC681A6B94BB0033ABFD /* Frameworks */,
+				BC8DAC691A6B94BB0033ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareBear;
+			productName = ShareBear;
+			productReference = BC8DAC6B1A6B94BB0033ABFD /* ShareBear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC8DAC7F1A6B94BB0033ABFD /* ShareBearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8DAC8D1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBearTests" */;
+			buildPhases = (
+				BC8DAC7C1A6B94BB0033ABFD /* Sources */,
+				BC8DAC7D1A6B94BB0033ABFD /* Frameworks */,
+				BC8DAC7E1A6B94BB0033ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8DAC821A6B94BB0033ABFD /* PBXTargetDependency */,
+			);
+			name = ShareBearTests;
+			productName = ShareBearTests;
+			productReference = BC8DAC801A6B94BB0033ABFD /* ShareBearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8DAC631A6B94BB0033ABFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Charles Dong";
+				TargetAttributes = {
+					BC8DAC6A1A6B94BB0033ABFD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BC8DAC7F1A6B94BB0033ABFD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BC8DAC6A1A6B94BB0033ABFD;
+					};
+				};
+			};
+			buildConfigurationList = BC8DAC661A6B94BB0033ABFD /* Build configuration list for PBXProject "ShareBear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC8DAC621A6B94BB0033ABFD;
+			productRefGroup = BC8DAC6C1A6B94BB0033ABFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC8DAC6A1A6B94BB0033ABFD /* ShareBear */,
+				BC8DAC7F1A6B94BB0033ABFD /* ShareBearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC8DAC691A6B94BB0033ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8DAC761A6B94BB0033ABFD /* Main.storyboard in Resources */,
+				BC8DAC7B1A6B94BB0033ABFD /* LaunchScreen.xib in Resources */,
+				BC8DAC781A6B94BB0033ABFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8DAC7E1A6B94BB0033ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC8DAC671A6B94BB0033ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8DAC731A6B94BB0033ABFD /* ViewController.swift in Sources */,
+				BC8DAC711A6B94BB0033ABFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8DAC7C1A6B94BB0033ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8DAC871A6B94BB0033ABFD /* ShareBearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC8DAC821A6B94BB0033ABFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC8DAC6A1A6B94BB0033ABFD /* ShareBear */;
+			targetProxy = BC8DAC811A6B94BB0033ABFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC8DAC741A6B94BB0033ABFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8DAC751A6B94BB0033ABFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8DAC7A1A6B94BB0033ABFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8DAC881A6B94BB0033ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC8DAC891A6B94BB0033ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC8DAC8B1A6B94BB0033ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareBear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC8DAC8C1A6B94BB0033ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareBear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC8DAC8E1A6B94BB0033ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareBearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBear.app/ShareBear";
+			};
+			name = Debug;
+		};
+		BC8DAC8F1A6B94BB0033ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareBearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBear.app/ShareBear";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8DAC661A6B94BB0033ABFD /* Build configuration list for PBXProject "ShareBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8DAC881A6B94BB0033ABFD /* Debug */,
+				BC8DAC891A6B94BB0033ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8DAC8A1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8DAC8B1A6B94BB0033ABFD /* Debug */,
+				BC8DAC8C1A6B94BB0033ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC8DAC8D1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8DAC8E1A6B94BB0033ABFD /* Debug */,
+				BC8DAC8F1A6B94BB0033ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC8DAC631A6B94BB0033ABFD /* Project object */;
+}
