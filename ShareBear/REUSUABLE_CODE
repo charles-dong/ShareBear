@@ -1,0 +1,40 @@
+
+
+
+
+***********************
+Parse Tracking Example
+***********************
+
+// track how often a user searches, with some additional metadata
+let dimensions = [
+  // Define ranges to bucket data points into meaningful segments
+  "priceRange": "1000-1500",
+  // Did the user filter the query?
+  "source": "craigslist",
+  // Do searches happen more often on weekdays or weekends?
+  "dayType": "weekday"
+]
+
+// Send the dimensions to Parse along with the 'search' event
+PFAnalytics.trackEvent("search", dimensions:dimensions)
+
+
+***********************
+Optional Chaining
+***********************
+When used as an "if let" statement the constant "culprit" is assigned the actual value of type String, which is the same as unwrapping the value using a bang ! operator. Now that culprit is of type String we can call the toInt() function on it. But the function toInt() returns Int? which is also an optional.
+
+Now we could nest if statements.
+
+if let culprit = findApt("404",aptNumbers) {
+    if let culpritAptNumber = culprit.toInt() {
+        sendNoticeTo(culpritAptNumber)
+    }
+}
+
+Why nest when we can chain function calls. Swift provides what is called optional chaining to make such statements compact:
+
+if let culpritAptNumber = findApt("404",aptNumbers)?.toInt() {
+    sendNoticeTo(culpritAptNumber)
+}

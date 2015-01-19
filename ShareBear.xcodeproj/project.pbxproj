@@ -12,6 +12,7 @@
 		BC8DAC781A6B94BB0033ABFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC771A6B94BB0033ABFD /* Images.xcassets */; };
 		BC8DAC7B1A6B94BB0033ABFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */; };
 		BC8DAC871A6B94BB0033ABFD /* ShareBearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */; };
+		BCBC63B41A6CBFD50040BF51 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC63B31A6CBFD50040BF51 /* SplashScreenVC.swift */; };
 		BCF9E0791A6C58ED00DC7E3C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0741A6C58ED00DC7E3C /* Bolts.framework */; };
 		BCF9E07A1A6C58ED00DC7E3C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0751A6C58ED00DC7E3C /* Parse.framework */; };
 		BCF9E07B1A6C58ED00DC7E3C /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0761A6C58ED00DC7E3C /* ParseCrashReporting.framework */; };
@@ -29,7 +30,9 @@
 		BCF9E0911A6C594100DC7E3C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0901A6C594100DC7E3C /* libz.dylib */; };
 		BCF9E0931A6C594900DC7E3C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0921A6C594900DC7E3C /* libsqlite3.dylib */; };
 		BCF9E0981A6C630D00DC7E3C /* InboxTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */; };
-		BCF9E09B1A6C975600DC7E3C /* REUSUABLE CODE: in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */; };
+		BCF9E09B1A6C975600DC7E3C /* REUSUABLE_CODE in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E0991A6C975600DC7E3C /* REUSUABLE_CODE */; };
+		BCF9E09F1A6C9AF500DC7E3C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E09E1A6C9AF500DC7E3C /* LoginVC.swift */; };
+		BCF9E0A21A6C9D0600DC7E3C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0A11A6C9D0600DC7E3C /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,7 @@
 		BC8DAC801A6B94BB0033ABFD /* ShareBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8DAC851A6B94BB0033ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBearTests.swift; sourceTree = "<group>"; };
+		BCBC63B31A6CBFD50040BF51 /* SplashScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		BCF9E0741A6C58ED00DC7E3C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		BCF9E0751A6C58ED00DC7E3C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		BCF9E0761A6C58ED00DC7E3C /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
@@ -70,8 +74,10 @@
 		BCF9E0921A6C594900DC7E3C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		BCF9E0941A6C5A0D00DC7E3C /* ShareBear-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareBear-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxTVC.swift; sourceTree = "<group>"; };
-		BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "REUSUABLE CODE:"; sourceTree = "<group>"; };
+		BCF9E0991A6C975600DC7E3C /* REUSUABLE_CODE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = REUSUABLE_CODE; sourceTree = "<group>"; };
 		BCF9E09A1A6C975600DC7E3C /* ShareBear_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShareBear_Playground.playground; sourceTree = "<group>"; };
+		BCF9E09E1A6C9AF500DC7E3C /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BCF9E0A11A6C9D0600DC7E3C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 				BCF9E0891A6C592500DC7E3C /* QuartzCore.framework in Frameworks */,
 				BCF9E0871A6C591E00DC7E3C /* MobileCoreServices.framework in Frameworks */,
 				BCF9E0851A6C591800DC7E3C /* CoreLocation.framework in Frameworks */,
+				BCF9E0A21A6C9D0600DC7E3C /* FacebookSDK.framework in Frameworks */,
 				BCF9E0831A6C591100DC7E3C /* CoreGraphics.framework in Frameworks */,
 				BCF9E0811A6C590400DC7E3C /* CFNetwork.framework in Frameworks */,
 				BCF9E07F1A6C58FB00DC7E3C /* AudioToolbox.framework in Frameworks */,
@@ -133,6 +140,7 @@
 				BC8DAC741A6B94BB0033ABFD /* Main.storyboard */,
 				BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */,
 				BC8DAC771A6B94BB0033ABFD /* Images.xcassets */,
+				BCF9E0A01A6C9AF900DC7E3C /* Login */,
 				BCF9E09D1A6C98AD00DC7E3C /* Inbox */,
 				BCF9E09C1A6C982F00DC7E3C /* Dev Helper */,
 				BC8DAC6E1A6B94BB0033ABFD /* Supporting Files */,
@@ -143,6 +151,7 @@
 		BC8DAC6E1A6B94BB0033ABFD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCF9E0A11A6C9D0600DC7E3C /* FacebookSDK.framework */,
 				BCF9E0941A6C5A0D00DC7E3C /* ShareBear-Bridging-Header.h */,
 				BCF9E0921A6C594900DC7E3C /* libsqlite3.dylib */,
 				BCF9E0901A6C594100DC7E3C /* libz.dylib */,
@@ -185,7 +194,7 @@
 		BCF9E09C1A6C982F00DC7E3C /* Dev Helper */ = {
 			isa = PBXGroup;
 			children = (
-				BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */,
+				BCF9E0991A6C975600DC7E3C /* REUSUABLE_CODE */,
 				BCF9E09A1A6C975600DC7E3C /* ShareBear_Playground.playground */,
 			);
 			name = "Dev Helper";
@@ -197,6 +206,15 @@
 				BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */,
 			);
 			name = Inbox;
+			sourceTree = "<group>";
+		};
+		BCF9E0A01A6C9AF900DC7E3C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BCF9E09E1A6C9AF500DC7E3C /* LoginVC.swift */,
+				BCBC63B31A6CBFD50040BF51 /* SplashScreenVC.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF9E09B1A6C975600DC7E3C /* REUSUABLE CODE: in Resources */,
+				BCF9E09B1A6C975600DC7E3C /* REUSUABLE_CODE in Resources */,
 				BC8DAC761A6B94BB0033ABFD /* Main.storyboard in Resources */,
 				BC8DAC7B1A6B94BB0033ABFD /* LaunchScreen.xib in Resources */,
 				BC8DAC781A6B94BB0033ABFD /* Images.xcassets in Resources */,
@@ -302,6 +320,8 @@
 			files = (
 				BCF9E0981A6C630D00DC7E3C /* InboxTVC.swift in Sources */,
 				BC8DAC711A6B94BB0033ABFD /* AppDelegate.swift in Sources */,
+				BCF9E09F1A6C9AF500DC7E3C /* LoginVC.swift in Sources */,
+				BCBC63B41A6CBFD50040BF51 /* SplashScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +448,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShareBear",
+					/Users/cdong/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = ShareBear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -445,6 +466,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShareBear",
+					/Users/cdong/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = ShareBear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
