@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hdc-0d-Ee0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hdc-0d-Ee0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Splash ScreenVC-->
@@ -16,18 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newspaper_coffee_glasses" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-g5-NBO">
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="newspaper_coffee_glasses" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-g5-NBO">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="608"/>
+                                <color key="backgroundColor" white="1" alpha="0.72999999999999998" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gDW-g5-NBO" secondAttribute="height" multiplier="75:76" id="Xhb-SE-zFD"/>
+                                    <constraint firstAttribute="width" secondItem="gDW-g5-NBO" secondAttribute="height" multiplier="75:76" id="bX9-6g-3ZB"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ShareBear!!!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENE-J0-nCC">
-                                <rect key="frame" x="103" y="289" width="94" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6t-ZA-VNJ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6t-ZA-VNJ">
                                 <rect key="frame" x="16" y="530" width="181" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.31764705882352939" green="0.86274509803921573" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="YyH-1e-px5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -36,9 +41,13 @@
                                     <action selector="SignupButtonPressed:" destination="0NW-pj-X8h" eventType="touchUpInside" id="Oe2-Pr-oWc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98E-wm-xoI">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98E-wm-xoI">
                                 <rect key="frame" x="200" y="530" width="181" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.31764705882352939" green="0.86274509803921573" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5vf-tX-bFF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,8 +56,49 @@
                                     <action selector="LoginButtonPressed:" destination="0NW-pj-X8h" eventType="touchUpInside" id="rPu-RF-Rae"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4K2-jb-6Dh">
+                                <rect key="frame" x="238" y="120" width="124" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sharebear" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ch-er-QpY">
+                                <rect key="frame" x="257" y="204" width="204" height="55"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="45"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="gDW-g5-NBO" secondAttribute="trailing" constant="-16" id="0f9-iz-VA0"/>
+                            <constraint firstItem="98E-wm-xoI" firstAttribute="height" secondItem="m6t-ZA-VNJ" secondAttribute="height" id="4W8-FT-tSP"/>
+                            <constraint firstItem="98E-wm-xoI" firstAttribute="width" secondItem="m6t-ZA-VNJ" secondAttribute="width" id="53g-S9-YCY"/>
+                            <constraint firstItem="gDW-g5-NBO" firstAttribute="top" secondItem="ALZ-bV-BQn" secondAttribute="top" id="5zd-es-18a"/>
+                            <constraint firstAttribute="bottom" secondItem="gDW-g5-NBO" secondAttribute="bottom" id="6Pe-73-w8q"/>
+                            <constraint firstAttribute="centerX" secondItem="5ch-er-QpY" secondAttribute="centerX" id="8EV-BV-a9B"/>
+                            <constraint firstItem="m6t-ZA-VNJ" firstAttribute="leading" secondItem="ALZ-bV-BQn" secondAttribute="leadingMargin" id="Bq0-oH-Zx0"/>
+                            <constraint firstItem="snZ-DK-Wcn" firstAttribute="top" secondItem="98E-wm-xoI" secondAttribute="bottom" constant="12" id="G6E-zt-Vr3"/>
+                            <constraint firstItem="snZ-DK-Wcn" firstAttribute="top" secondItem="m6t-ZA-VNJ" secondAttribute="bottom" constant="12" id="QMT-s3-7yx"/>
+                            <constraint firstItem="m6t-ZA-VNJ" firstAttribute="leading" secondItem="ALZ-bV-BQn" secondAttribute="leading" constant="4" id="R0O-ty-0SB"/>
+                            <constraint firstItem="98E-wm-xoI" firstAttribute="leading" secondItem="m6t-ZA-VNJ" secondAttribute="trailing" constant="15" id="avE-6w-7xn"/>
+                            <constraint firstItem="4K2-jb-6Dh" firstAttribute="top" secondItem="xed-Vd-g4w" secondAttribute="bottom" constant="150" id="b9x-S3-V4t"/>
+                            <constraint firstAttribute="centerX" secondItem="4K2-jb-6Dh" secondAttribute="centerX" id="eOX-HS-gka"/>
+                            <constraint firstItem="gDW-g5-NBO" firstAttribute="leading" secondItem="ALZ-bV-BQn" secondAttribute="leadingMargin" constant="-16" id="jFb-QU-CxA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="98E-wm-xoI" secondAttribute="trailing" id="lKS-vP-J69"/>
+                            <constraint firstItem="5ch-er-QpY" firstAttribute="top" secondItem="4K2-jb-6Dh" secondAttribute="bottom" constant="10" id="q5S-Bu-qoJ"/>
+                            <constraint firstItem="snZ-DK-Wcn" firstAttribute="top" secondItem="m6t-ZA-VNJ" secondAttribute="bottom" constant="20" id="tYm-rJ-xeN"/>
+                            <constraint firstItem="snZ-DK-Wcn" firstAttribute="top" secondItem="m6t-ZA-VNJ" secondAttribute="bottom" id="uFd-dq-I5M"/>
+                            <constraint firstItem="m6t-ZA-VNJ" firstAttribute="leading" secondItem="ALZ-bV-BQn" secondAttribute="leadingMargin" id="ukv-Ss-Hyd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bq0-oH-Zx0"/>
+                                <exclude reference="R0O-ty-0SB"/>
+                                <exclude reference="tYm-rJ-xeN"/>
+                                <exclude reference="uFd-dq-I5M"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YKn-E5-Ouq" userLabel="First Responder" sceneMemberID="firstResponder"/>
