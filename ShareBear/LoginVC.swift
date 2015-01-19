@@ -39,7 +39,9 @@ class LoginVC: UIViewController, FBLoginViewDelegate {
     @IBAction func loginWithEmail(sender: AnyObject) {
     }
     
+    @IBOutlet weak var emailTextField: UITextField!
     
+    @IBOutlet weak var passwordTextField: UITextField!
     
     
 // MARK: - UIViewController SuperClass

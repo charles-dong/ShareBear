@@ -12,9 +12,6 @@ class SignUpVC: UIViewController, FBLoginViewDelegate {
     
 // MARK: - UI Elements & Actions
     
-    // Facebook - Login Button
-    @IBOutlet weak var fbLoginView: FBLoginView! //this will be deleted
-    
     // custom login to Facebook
     @IBAction func loginToFacebookButtonPressed(sender: AnyObject) {
         var permissions = ["public_profile", "email", "user_friends"]
@@ -39,10 +36,16 @@ class SignUpVC: UIViewController, FBLoginViewDelegate {
         })
     }
     
+    @IBAction func signUpWithEmail(sender: AnyObject) {
+    }
     
+    @IBOutlet weak var firstNameTextField: UITextField!
     
+    @IBOutlet weak var lastNameTextField: UITextField!
     
+    @IBOutlet weak var emailTextField: UITextField!
     
+    @IBOutlet weak var passwordTextField: UITextField!
     
 // MARK: - UIViewController SuperClass
     
