@@ -14,11 +14,13 @@ class SplashScreenVC: UIViewController {
     
     @IBAction func SignupButtonPressed(sender: AnyObject) {
         // TODO: Segue to signup view
+        // TODO: Tracking analytics
     }
     
     
     @IBAction func LoginButtonPressed(sender: AnyObject) {
         // TODO: Segue to login view
+        // TODO: Tracking analytics
     }
     
 

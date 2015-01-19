@@ -10,17 +10,41 @@ import Foundation
 
 class SignUpVC: UIViewController, FBLoginViewDelegate {
     
-    // MARK: - UI Elements & Actions
+// MARK: - UI Elements & Actions
     
     // Facebook - Login Button
-    @IBOutlet weak var fbLoginView: FBLoginView!
+    @IBOutlet weak var fbLoginView: FBLoginView! //this will be deleted
+    
+    // custom login to Facebook
+    @IBAction func loginToFacebookButtonPressed(sender: AnyObject) {
+        var permissions = ["public_profile", "email", "user_friends"]
+        
+        // Parse - when this function is run, the following happens:
+        // 1) The user is shown the Facebook login dialog
+        // 2) The user authenticates via Facebook, and your app receives a callback using handleOpenURL.
+        // 3) Parse SDK receives the Facebook data and saves it to a PFUser. If it's a new user based on the Facebook ID, then that user is created.
+        // 4) Your code block is called with the user.
+        PFFacebookUtils.logInWithPermissions(permissions, {
+            (user: PFUser!, error: NSError!) -> Void in
+            if user == nil {
+                println("Uh oh. The user cancelled the Facebook login.")
+                // TODO: Tracking analytics
+            } else if user.isNew {
+                println("User signed up and logged in through Facebook!")
+                // TODO: Tracking analytics
+            } else {
+                println("User logged in through Facebook!")
+                // TODO: Tracking analytics
+            }
+        })
+    }
     
     
     
     
     
     
-    // MARK: - UIViewController SuperClass
+// MARK: - UIViewController SuperClass
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +73,10 @@ class SignUpVC: UIViewController, FBLoginViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK: - Facebook Delegate Methods
+    
+    
+    
+// MARK: - Facebook Delegate Methods
     
     // Facebook - fetched user info
     func loginViewFetchedUserInfo(loginView : FBLoginView!, user: FBGraphUser) {
@@ -65,16 +92,19 @@ class SignUpVC: UIViewController, FBLoginViewDelegate {
     // Facebook - notification that user logged in
     func loginViewShowingLoggedInUser(loginView : FBLoginView!) {
         println("User Logged In")
+        // TODO: Tracking analytics
     }
     
     // Facebook - notification that user logged out
     func loginViewShowingLoggedOutUser(loginView : FBLoginView!) {
         println("User Logged Out")
+        // TODO: Tracking analytics
     }
     
     // Facebook - error handling
     func loginView(loginView : FBLoginView!, handleError:NSError) {
         println("Error: \(handleError.localizedDescription)")
+        // TODO: Tracking analytics
         
         // vars to store potential alerts in
         var alertTitle: String?
