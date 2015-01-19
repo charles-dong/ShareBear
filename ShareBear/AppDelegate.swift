@@ -26,9 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Parse - track statistics around application opens
         PFAnalytics.trackAppOpenedWithLaunchOptionsInBackground(launchOptions, block: nil)
         
-        // Facebook - load login views
-        FBLoginView.self
-        FBProfilePictureView.self
+        // Parse - set up Facebook
+        PFFacebookUtils.initializeFacebook()
         
         
         return true
@@ -51,6 +50,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
         
+        // Parse - Facebook Activation
+        FBAppCall.handleDidBecomeActiveWithSession(PFFacebookUtils.session())
+        
         // Facebook - Logs 'install' and 'app activate' App Events.
         FBAppEvents.activateApp()
         
@@ -60,13 +62,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    // MARK: - Facebook Login 
-    
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: NSString?, annotation: AnyObject) -> Bool {
-        
-        var wasHandled:Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
-        return wasHandled
-        
+    // Parse - Facebook Login
+    func application(application: UIApplication,
+        openURL url: NSURL,
+        sourceApplication: String,
+        annotation: AnyObject?) -> Bool {
+            return FBAppCall.handleOpenURL(url, sourceApplication:sourceApplication,
+                withSession:PFFacebookUtils.session())
     }
 
 
