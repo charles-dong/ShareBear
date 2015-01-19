@@ -13,6 +13,7 @@
 		BC8DAC7B1A6B94BB0033ABFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */; };
 		BC8DAC871A6B94BB0033ABFD /* ShareBearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */; };
 		BCBC63B41A6CBFD50040BF51 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC63B31A6CBFD50040BF51 /* SplashScreenVC.swift */; };
+		BCBC63B61A6D09340040BF51 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBC63B51A6D09340040BF51 /* SignUpVC.swift */; };
 		BCF9E0791A6C58ED00DC7E3C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0741A6C58ED00DC7E3C /* Bolts.framework */; };
 		BCF9E07A1A6C58ED00DC7E3C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0751A6C58ED00DC7E3C /* Parse.framework */; };
 		BCF9E07B1A6C58ED00DC7E3C /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0761A6C58ED00DC7E3C /* ParseCrashReporting.framework */; };
@@ -56,6 +57,7 @@
 		BC8DAC851A6B94BB0033ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBearTests.swift; sourceTree = "<group>"; };
 		BCBC63B31A6CBFD50040BF51 /* SplashScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		BCBC63B51A6D09340040BF51 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		BCF9E0741A6C58ED00DC7E3C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		BCF9E0751A6C58ED00DC7E3C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		BCF9E0761A6C58ED00DC7E3C /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		BCF9E0A01A6C9AF900DC7E3C /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				BCBC63B51A6D09340040BF51 /* SignUpVC.swift */,
 				BCF9E09E1A6C9AF500DC7E3C /* LoginVC.swift */,
 				BCBC63B31A6CBFD50040BF51 /* SplashScreenVC.swift */,
 			);
@@ -321,6 +324,7 @@
 				BCF9E0981A6C630D00DC7E3C /* InboxTVC.swift in Sources */,
 				BC8DAC711A6B94BB0033ABFD /* AppDelegate.swift in Sources */,
 				BCF9E09F1A6C9AF500DC7E3C /* LoginVC.swift in Sources */,
+				BCBC63B61A6D09340040BF51 /* SignUpVC.swift in Sources */,
 				BCBC63B41A6CBFD50040BF51 /* SplashScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

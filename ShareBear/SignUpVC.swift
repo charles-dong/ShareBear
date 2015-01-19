@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  SignUpVC.swift
 //  ShareBear
 //
 //  Created by Charles Dong on 1/18/15.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-class LoginVC: UIViewController, FBLoginViewDelegate {
+class SignUpVC: UIViewController, FBLoginViewDelegate {
     
-// MARK: - UI Elements & Actions
+    // MARK: - UI Elements & Actions
     
     // Facebook - Login Button
     @IBOutlet weak var fbLoginView: FBLoginView!
@@ -20,11 +20,11 @@ class LoginVC: UIViewController, FBLoginViewDelegate {
     
     
     
-// MARK: - UIViewController SuperClass
+    // MARK: - UIViewController SuperClass
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Facebook
         self.fbLoginView.delegate = self
         self.fbLoginView.readPermissions = ["public_profile", "email", "user_friends"]
@@ -38,7 +38,7 @@ class LoginVC: UIViewController, FBLoginViewDelegate {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
     }
-
+    
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
@@ -49,7 +49,7 @@ class LoginVC: UIViewController, FBLoginViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-// MARK: - Facebook Delegate Methods
+    // MARK: - Facebook Delegate Methods
     
     // Facebook - fetched user info
     func loginViewFetchedUserInfo(loginView : FBLoginView!, user: FBGraphUser) {
