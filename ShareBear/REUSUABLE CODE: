@@ -1,5 +1,8 @@
 
 
+
+
+
 ***********************
 Parse Tracking Example
 ***********************
@@ -16,3 +19,8 @@ let dimensions = [
 
 // Send the dimensions to Parse along with the 'search' event
 PFAnalytics.trackEvent("search", dimensions:dimensions)
+
+
+***********************
+Next thing
+***********************

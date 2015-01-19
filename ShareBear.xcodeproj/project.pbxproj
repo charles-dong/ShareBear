@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BC8DAC711A6B94BB0033ABFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */; };
-		BC8DAC731A6B94BB0033ABFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DAC721A6B94BB0033ABFD /* ViewController.swift */; };
 		BC8DAC761A6B94BB0033ABFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC741A6B94BB0033ABFD /* Main.storyboard */; };
 		BC8DAC781A6B94BB0033ABFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC771A6B94BB0033ABFD /* Images.xcassets */; };
 		BC8DAC7B1A6B94BB0033ABFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */; };
@@ -47,7 +46,6 @@
 		BC8DAC6B1A6B94BB0033ABFD /* ShareBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8DAC6F1A6B94BB0033ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC8DAC721A6B94BB0033ABFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC8DAC751A6B94BB0033ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC8DAC771A6B94BB0033ABFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC8DAC7A1A6B94BB0033ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -132,13 +130,11 @@
 			isa = PBXGroup;
 			children = (
 				BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */,
-				BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */,
-				BCF9E09A1A6C975600DC7E3C /* ShareBear_Playground.playground */,
-				BC8DAC721A6B94BB0033ABFD /* ViewController.swift */,
 				BC8DAC741A6B94BB0033ABFD /* Main.storyboard */,
-				BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */,
-				BC8DAC771A6B94BB0033ABFD /* Images.xcassets */,
 				BC8DAC791A6B94BB0033ABFD /* LaunchScreen.xib */,
+				BC8DAC771A6B94BB0033ABFD /* Images.xcassets */,
+				BCF9E09D1A6C98AD00DC7E3C /* Inbox */,
+				BCF9E09C1A6C982F00DC7E3C /* Dev Helper */,
 				BC8DAC6E1A6B94BB0033ABFD /* Supporting Files */,
 			);
 			path = ShareBear;
@@ -184,6 +180,23 @@
 				BC8DAC851A6B94BB0033ABFD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF9E09C1A6C982F00DC7E3C /* Dev Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */,
+				BCF9E09A1A6C975600DC7E3C /* ShareBear_Playground.playground */,
+			);
+			name = "Dev Helper";
+			sourceTree = "<group>";
+		};
+		BCF9E09D1A6C98AD00DC7E3C /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */,
+			);
+			name = Inbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF9E0981A6C630D00DC7E3C /* InboxTVC.swift in Sources */,
-				BC8DAC731A6B94BB0033ABFD /* ViewController.swift in Sources */,
 				BC8DAC711A6B94BB0033ABFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
