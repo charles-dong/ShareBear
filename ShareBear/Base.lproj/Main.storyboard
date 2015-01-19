@@ -16,73 +16,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newspaper_coffee_glasses" translatesAutoresizingMaskIntoConstraints="NO" id="aC9-b0-fgo">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="408" height="800"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newspaper_coffee_glasses" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-g5-NBO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="608"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDF-ya-GtY">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ShareBear!!!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENE-J0-nCC">
+                                <rect key="frame" x="103" y="289" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6t-ZA-VNJ">
+                                <rect key="frame" x="16" y="530" width="181" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="729" width="172" height="51"/>
-                                </variation>
                                 <connections>
-                                    <action selector="SignupButtonPressed:" destination="0NW-pj-X8h" eventType="touchUpInside" id="6Tt-zx-kgS"/>
+                                    <action selector="SignupButtonPressed:" destination="0NW-pj-X8h" eventType="touchUpInside" id="Oe2-Pr-oWc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to ShareBear!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moV-hi-6Gs">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="79" y="382" width="250" height="36"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Da-2F-8Lt">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98E-wm-xoI">
+                                <rect key="frame" x="200" y="530" width="181" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="212" y="729" width="172" height="51"/>
-                                </variation>
                                 <connections>
-                                    <action selector="LoginButtonPressed:" destination="0NW-pj-X8h" eventType="touchUpInside" id="qOI-XA-nV7"/>
+                                    <action selector="LoginButtonPressed:" destination="0NW-pj-X8h" eventType="touchUpInside" id="rPu-RF-Rae"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="aC9-b0-fgo"/>
-                                <exclude reference="RDF-ya-GtY"/>
-                                <exclude reference="moV-hi-6Gs"/>
-                                <exclude reference="3Da-2F-8Lt"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="aC9-b0-fgo"/>
-                                <include reference="RDF-ya-GtY"/>
-                                <include reference="moV-hi-6Gs"/>
-                                <include reference="3Da-2F-8Lt"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YKn-E5-Ouq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-534" y="349.5"/>
+            <point key="canvasLocation" x="-534" y="349"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LP0-m7-Ywb">
@@ -93,6 +64,7 @@
                         <viewControllerLayoutGuide type="bottom" id="XZ4-3c-mFq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TL1-fz-Dtg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -110,44 +82,23 @@
                         <viewControllerLayoutGuide type="bottom" id="uCn-U2-7wU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="18E-gh-Bnh">
+                        <rect key="frame" x="1" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r7x-Yb-zv0" customClass="FBLoginView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7j-Rv-10f" customClass="FBLoginView">
+                                <rect key="frame" x="24" y="35" width="144" height="45"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="47" y="55" width="306" height="60"/>
-                                </variation>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rue-NL-KUj">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="47" y="143" width="306" height="60"/>
-                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="r7x-Yb-zv0"/>
-                                <exclude reference="Rue-NL-KUj"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="r7x-Yb-zv0"/>
-                                <include reference="Rue-NL-KUj"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
-                        <outlet property="fbLoginView" destination="r7x-Yb-zv0" id="uvS-Ye-dcE"/>
+                        <outlet property="fbLoginView" destination="W7j-Rv-10f" id="djC-fd-c4M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wr-Y6-TEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="160.5" y="349.5"/>
+            <point key="canvasLocation" x="160" y="349"/>
         </scene>
         <!--Inbox-->
         <scene sceneID="s1i-4h-GG9">
