@@ -12,9 +12,6 @@ class LoginVC: UIViewController, FBLoginViewDelegate {
     
 // MARK: - UI Elements & Actions
     
-    // Facebook - Login Button
-    @IBOutlet weak var fbLoginView: FBLoginView!
-    
     // custom login to Facebook
     @IBAction func loginToFacebookButtonPressed(sender: AnyObject) {
         var permissions = ["public_profile", "email", "user_friends"]
@@ -39,6 +36,8 @@ class LoginVC: UIViewController, FBLoginViewDelegate {
         })
     }
     
+    @IBAction func loginWithEmail(sender: AnyObject) {
+    }
     
     
     
