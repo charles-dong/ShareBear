@@ -52,10 +52,6 @@ class SignUpVC: UIViewController, FBLoginViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Facebook
-        self.fbLoginView.delegate = self
-        self.fbLoginView.readPermissions = ["public_profile", "email", "user_friends"]
-        
     }
     
     override func viewWillAppear(animated: Bool) {
