@@ -26,8 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Parse - track statistics around application opens
         PFAnalytics.trackAppOpenedWithLaunchOptionsInBackground(launchOptions, block: nil)
         
-        // Facebook - load login view
-        FBLoginView()
+        // Facebook - load login views
+        FBLoginView.self
+        FBProfilePictureView.self
         
         
         return true
@@ -59,7 +60,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    optional func application(_ application: UIApplication, open
+    // MARK: - Facebook Login 
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: NSString?, annotation: AnyObject) -> Bool {
+        
+        var wasHandled:Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        return wasHandled
+        
+    }
 
 
 }
