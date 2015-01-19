@@ -30,6 +30,7 @@
 		BCF9E0911A6C594100DC7E3C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0901A6C594100DC7E3C /* libz.dylib */; };
 		BCF9E0931A6C594900DC7E3C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF9E0921A6C594900DC7E3C /* libsqlite3.dylib */; };
 		BCF9E0981A6C630D00DC7E3C /* InboxTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */; };
+		BCF9E09B1A6C975600DC7E3C /* REUSUABLE CODE: in Resources */ = {isa = PBXBuildFile; fileRef = BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		BCF9E0921A6C594900DC7E3C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		BCF9E0941A6C5A0D00DC7E3C /* ShareBear-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareBear-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxTVC.swift; sourceTree = "<group>"; };
+		BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "REUSUABLE CODE:"; sourceTree = "<group>"; };
+		BCF9E09A1A6C975600DC7E3C /* ShareBear_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShareBear_Playground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */,
+				BCF9E0991A6C975600DC7E3C /* REUSUABLE CODE: */,
+				BCF9E09A1A6C975600DC7E3C /* ShareBear_Playground.playground */,
 				BC8DAC721A6B94BB0033ABFD /* ViewController.swift */,
 				BC8DAC741A6B94BB0033ABFD /* Main.storyboard */,
 				BCF9E0971A6C630D00DC7E3C /* InboxTVC.swift */,
@@ -261,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF9E09B1A6C975600DC7E3C /* REUSUABLE CODE: in Resources */,
 				BC8DAC761A6B94BB0033ABFD /* Main.storyboard in Resources */,
 				BC8DAC7B1A6B94BB0033ABFD /* LaunchScreen.xib in Resources */,
 				BC8DAC781A6B94BB0033ABFD /* Images.xcassets in Resources */,
