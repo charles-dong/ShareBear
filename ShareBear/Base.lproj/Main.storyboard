@@ -203,26 +203,6 @@
                         <rect key="frame" x="1" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbc-HC-G4i">
-                                <rect key="frame" x="16" y="49" width="181" height="50"/>
-                                <color key="backgroundColor" red="0.31764705879999999" green="0.86274509799999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="EtZ-sZ-wJK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Log In With Facebook">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="EtZ-sZ-wJK"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="loginToFacebookButtonPressed:" destination="Hdc-0d-Ee0" eventType="touchUpInside" id="BTm-7A-mDW"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="email" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Swr-mD-Hon">
                                 <rect key="frame" x="58" y="123" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -233,24 +213,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Md8-wR-Q0K">
-                                <rect key="frame" x="16" y="237" width="181" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Md8-wR-Q0K">
+                                <rect key="frame" x="21" y="293" width="181" height="50"/>
                                 <color key="backgroundColor" red="0.31764705879999999" green="0.86274509799999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="SDR-oK-smx"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Log In With Email">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="SDR-oK-smx"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <action selector="loginWithEmail:" destination="Hdc-0d-Ee0" eventType="touchUpInside" id="fhb-ft-BUc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbc-HC-G4i">
+                                <rect key="frame" x="21" y="40" width="181" height="50"/>
+                                <color key="backgroundColor" red="0.31764705879999999" green="0.86274509799999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Log In With Facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginToFacebookButtonPressed:" destination="Hdc-0d-Ee0" eventType="touchUpInside" id="BTm-7A-mDW"/>
                                 </connections>
                             </button>
                         </subviews>

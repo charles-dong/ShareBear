@@ -28,6 +28,7 @@ class SignUpVC: UIViewController, FBLoginViewDelegate {
                 // TODO: Tracking analytics
             } else if user.isNew {
                 println("User signed up and logged in through Facebook!")
+                
                 // TODO: Tracking analytics
             } else {
                 println("User logged in through Facebook!")
