@@ -47,13 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC8DAC6B1A6B94BB0033ABFD /* ShareBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8DAC6B1A6B94BB0033ABFD /* Postmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8DAC6F1A6B94BB0033ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8DAC701A6B94BB0033ABFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8DAC751A6B94BB0033ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC8DAC771A6B94BB0033ABFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC8DAC7A1A6B94BB0033ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BC8DAC801A6B94BB0033ABFD /* ShareBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8DAC801A6B94BB0033ABFD /* PostmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8DAC851A6B94BB0033ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8DAC861A6B94BB0033ABFD /* ShareBearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareBearTests.swift; sourceTree = "<group>"; };
 		BCBC63B31A6CBFD50040BF51 /* SplashScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 		BC8DAC6C1A6B94BB0033ABFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC8DAC6B1A6B94BB0033ABFD /* ShareBear.app */,
-				BC8DAC801A6B94BB0033ABFD /* ShareBearTests.xctest */,
+				BC8DAC6B1A6B94BB0033ABFD /* Postmark.app */,
+				BC8DAC801A6B94BB0033ABFD /* PostmarkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,9 +223,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC8DAC6A1A6B94BB0033ABFD /* ShareBear */ = {
+		BC8DAC6A1A6B94BB0033ABFD /* Postmark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC8DAC8A1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBear" */;
+			buildConfigurationList = BC8DAC8A1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "Postmark" */;
 			buildPhases = (
 				BC8DAC671A6B94BB0033ABFD /* Sources */,
 				BC8DAC681A6B94BB0033ABFD /* Frameworks */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = ShareBear;
+			name = Postmark;
 			productName = ShareBear;
-			productReference = BC8DAC6B1A6B94BB0033ABFD /* ShareBear.app */;
+			productReference = BC8DAC6B1A6B94BB0033ABFD /* Postmark.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BC8DAC7F1A6B94BB0033ABFD /* ShareBearTests */ = {
+		BC8DAC7F1A6B94BB0033ABFD /* PostmarkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC8DAC8D1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBearTests" */;
+			buildConfigurationList = BC8DAC8D1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "PostmarkTests" */;
 			buildPhases = (
 				BC8DAC7C1A6B94BB0033ABFD /* Sources */,
 				BC8DAC7D1A6B94BB0033ABFD /* Frameworks */,
@@ -253,9 +253,9 @@
 			dependencies = (
 				BC8DAC821A6B94BB0033ABFD /* PBXTargetDependency */,
 			);
-			name = ShareBearTests;
+			name = PostmarkTests;
 			productName = ShareBearTests;
-			productReference = BC8DAC801A6B94BB0033ABFD /* ShareBearTests.xctest */;
+			productReference = BC8DAC801A6B94BB0033ABFD /* PostmarkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC8DAC661A6B94BB0033ABFD /* Build configuration list for PBXProject "ShareBear" */;
+			buildConfigurationList = BC8DAC661A6B94BB0033ABFD /* Build configuration list for PBXProject "Postmark" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -289,8 +289,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC8DAC6A1A6B94BB0033ABFD /* ShareBear */,
-				BC8DAC7F1A6B94BB0033ABFD /* ShareBearTests */,
+				BC8DAC6A1A6B94BB0033ABFD /* Postmark */,
+				BC8DAC7F1A6B94BB0033ABFD /* PostmarkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 /* Begin PBXTargetDependency section */
 		BC8DAC821A6B94BB0033ABFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC8DAC6A1A6B94BB0033ABFD /* ShareBear */;
+			target = BC8DAC6A1A6B94BB0033ABFD /* Postmark */;
 			targetProxy = BC8DAC811A6B94BB0033ABFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +456,7 @@
 				);
 				INFOPLIST_FILE = ShareBear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Postmark;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShareBear/ShareBear-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -474,7 +474,7 @@
 				);
 				INFOPLIST_FILE = ShareBear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Postmark;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShareBear/ShareBear-Bridging-Header.h";
 			};
 			name = Release;
@@ -493,7 +493,7 @@
 				);
 				INFOPLIST_FILE = ShareBearTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PostmarkTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBear.app/ShareBear";
 			};
 			name = Debug;
@@ -508,7 +508,7 @@
 				);
 				INFOPLIST_FILE = ShareBearTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PostmarkTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBear.app/ShareBear";
 			};
 			name = Release;
@@ -516,7 +516,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC8DAC661A6B94BB0033ABFD /* Build configuration list for PBXProject "ShareBear" */ = {
+		BC8DAC661A6B94BB0033ABFD /* Build configuration list for PBXProject "Postmark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC8DAC881A6B94BB0033ABFD /* Debug */,
@@ -525,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC8DAC8A1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBear" */ = {
+		BC8DAC8A1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "Postmark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC8DAC8B1A6B94BB0033ABFD /* Debug */,
@@ -534,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC8DAC8D1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "ShareBearTests" */ = {
+		BC8DAC8D1A6B94BB0033ABFD /* Build configuration list for PBXNativeTarget "PostmarkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC8DAC8E1A6B94BB0033ABFD /* Debug */,

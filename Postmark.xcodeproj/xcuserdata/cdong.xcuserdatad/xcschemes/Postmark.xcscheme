@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC8DAC6A1A6B94BB0033ABFD"
-               BuildableName = "ShareBear.app"
-               BlueprintName = "ShareBear"
-               ReferencedContainer = "container:ShareBear.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC8DAC7F1A6B94BB0033ABFD"
-               BuildableName = "ShareBearTests.xctest"
-               BlueprintName = "ShareBearTests"
-               ReferencedContainer = "container:ShareBear.xcodeproj">
+               BuildableName = "Postmark.app"
+               BlueprintName = "Postmark"
+               ReferencedContainer = "container:Postmark.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC8DAC7F1A6B94BB0033ABFD"
-               BuildableName = "ShareBearTests.xctest"
-               BlueprintName = "ShareBearTests"
-               ReferencedContainer = "container:ShareBear.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC8DAC6A1A6B94BB0033ABFD"
-            BuildableName = "ShareBear.app"
-            BlueprintName = "ShareBear"
-            ReferencedContainer = "container:ShareBear.xcodeproj">
+            BuildableName = "Postmark.app"
+            BlueprintName = "Postmark"
+            ReferencedContainer = "container:Postmark.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC8DAC6A1A6B94BB0033ABFD"
-            BuildableName = "ShareBear.app"
-            BlueprintName = "ShareBear"
-            ReferencedContainer = "container:ShareBear.xcodeproj">
+            BuildableName = "Postmark.app"
+            BlueprintName = "Postmark"
+            ReferencedContainer = "container:Postmark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC8DAC6A1A6B94BB0033ABFD"
-            BuildableName = "ShareBear.app"
-            BlueprintName = "ShareBear"
-            ReferencedContainer = "container:ShareBear.xcodeproj">
+            BuildableName = "Postmark.app"
+            BlueprintName = "Postmark"
+            ReferencedContainer = "container:Postmark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
